@@ -125,6 +125,12 @@ footer p {
   .right-column h1 {
     font-size: 2em;
   }
+  button {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
 }
 .background {
   display: flex;
@@ -380,4 +386,10 @@ button {
 .hobby li {
   list-style-type: none;
   padding: 10px;
+}
+.present {
+  color: blue;
+  font-weight: bold;
+  background-color: #bd9391;
+  border-radius: 5px;
 }
